@@ -1,0 +1,82 @@
+@font-face {
+    font-family: regular;
+    src: url(../font/Gilroy-Regular.woff2);
+}
+body{
+    margin: 0;
+    font-family:regular ;
+    color: white;
+    background-color: black;
+}
+*{
+    box-sizing: border-box;
+}
+.row{
+    display:flex
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+.aling-items-center{
+    align-items: center;
+}
+
+li{
+    display: inline;
+    
+}
+.a1{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+}
+.img1{
+margin-left: 20px;
+margin-top: 24px;
+  
+}
+.btn{
+    margin-right: 20px;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 10px;
+    border:solid 1px blueviolet;
+}
+.fondo2{
+    background-image: url(../img/30coins.avif);
+    height: 600px;
+    position: relative;
+    background-position-x: -300px;
+}
+.texto{
+    position: absolute;
+    margin-left: 80px;
+margin-top: 200px;
+}
+.col{
+    margin: 30px 40px;
+   
+}
+footer{
+    background-color: rgb(4, 4, 36);
+    
+}
+.fin{
+    color: rgb(148, 139, 228);
+    text-decoration: none;
+    margin-right: 30px;
+}
+footer h4{
+    color:rgb(148, 139, 228) ;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+
