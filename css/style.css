@@ -34,8 +34,24 @@ li{
 .a1{
     text-decoration: none;
     color: white;
-    margin-right: 40px;
+   
 }
+
+header nav ul li a:hover {
+border:solid 2px blueviolet;
+border-radius: 20px;
+padding: 8px;
+
+}
+header nav ul li a{
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 8px;
+    }
+footer nav ul li a:hover {
+    color:rgb(255, 255, 255);
+ }
+
 .img1{
 margin-left: 20px;
 margin-top: 24px;
@@ -61,9 +77,12 @@ margin-top: 24px;
 margin-top: 200px;
 }
 .col{
-    margin: 30px 40px;
-   
+   flex-wrap: wrap;
 }
+.img5{
+    margin:10px;
+}
+
 footer{
     background-color: rgb(4, 4, 36);
     
@@ -79,4 +98,12 @@ footer h4{
     padding-bottom: 20px;
 }
 
-
+header{
+   position: fixed;
+   width: 100%;
+   z-index: 2;
+   background-color: rgba(0, 0, 0, 0.687);
+}
+main{
+    z-index: 1;
+}
